@@ -6,7 +6,8 @@ from etl.functions import getPath
 import logging
 
 # Local libs
-from etl.extract import parse_ingram, parse_synnex, parse_techdata, parse_ingramCAD, parse_CADTechDataOG, parse_CADTechData, parse_Ingram_Micro_BMO
+from etl.extract import (parse_ingram, parse_synnex, parse_techdata, parse_ingramCAD, 
+                            parse_CADTechDataOG, parse_CADTechData, parse_Ingram_Micro_BMO)
 
     
 """
